@@ -244,7 +244,7 @@ $result = $conn->query($sql);
     </style>
 </head>
 <body>
-
+    <a href="../auth/login.php">Logout</a>
     <h1>PENDING APPROVALS</h1>
 
     <?php while ($row = $result->fetch_assoc()): ?>
@@ -265,6 +265,6 @@ $result = $conn->query($sql);
 </div>
     <?php endwhile; ?>
 
-    <a href="../auth/login.php">Logout</a>
+    
 </body>
 </html>
